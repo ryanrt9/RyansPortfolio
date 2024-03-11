@@ -1,4 +1,4 @@
-// import RyanImage from './images/RyanThomasPortfolioPicture.png';
+import RyanImage from './images/RyanThomasPortfolioPicture.png';
 import './App.css';
 import {Row, Col, Nav, Navbar, Container, Button, Image} from 'react-bootstrap'
 import { FaGithubSquare, FaLinkedin} from "react-icons/fa";
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Row id="top">
-        <Navbar bg="light" data-bs-theme="light">
+        <Navbar data-bs-theme="light">
         <Container>
           <Navbar.Brand href="#home">Ryan Thomas</Navbar.Brand>
           <Nav className="me-auto">
@@ -21,8 +21,12 @@ function App() {
       </Row>
       <Row id="middle">
         <Col id="middle--left">
-          {/* {RyanImage} */}
-          <Image src="../images/RyanThomasPortfolioPicture.png" fluid />
+        <Image
+          src={RyanImage}
+          alt="Ryan Thomas smiling"
+          // rounded
+          id="ryan-image"
+        ></Image>
         </Col>
         <Col id="middle--right">
           <Row id="middle--right--top">
@@ -33,12 +37,12 @@ function App() {
             <h4>About Me</h4>
             <p>
             My journey into software development began as a natural extension of my desire to create impactful solutions. With a foundation in teaching, I bring a user-centric approach to my development projects, always striving to make technology accessible and user-friendly.
-Whether it's crafting elegant code, designing intuitive interfaces, or explaining complex concepts in a way that's easy to understand, I thrive on the intersection of education and technology.
+Whether it's crafting elegant code, designing intuitive interfaces, or explaining complex concepts in a way that's easy to understand, I thrive on the intersection between education and technology.
 
             </p>
           </Row>
           <Row id="middle--right--bottom">
-          <Button variant="dark">Resume</Button>
+          <Button id="resume-button" variant="dark">Resume</Button>
           </Row>
          
         </Col>

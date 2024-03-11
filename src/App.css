@@ -29,3 +29,15 @@
   /* background-color: darkgreen; */
   width: 500px;
 }
+
+#ryan-image {
+  height: 75vh;
+}
+
+#middle--right--bottom {
+  width: 200px;
+}
+
+.navbar, .navbar-default {
+  background-color: #eeeeee;
+}
