@@ -1,24 +1,57 @@
-import logo from './logo.svg';
+// import RyanImage from './images/RyanThomasPortfolioPicture.png';
 import './App.css';
+import {Row, Col, Nav, Navbar, Container, Button, Image} from 'react-bootstrap'
+import { FaGithubSquare, FaLinkedin} from "react-icons/fa";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Row id="top">
+        <Navbar bg="light" data-bs-theme="light">
+        <Container>
+          <Navbar.Brand href="#home">Ryan Thomas</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Skills</Nav.Link>
+            <Nav.Link href="#features">Projects</Nav.Link>
+            <Nav.Link href="#pricing">Contact</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+
+      </Row>
+      <Row id="middle">
+        <Col id="middle--left">
+          {/* {RyanImage} */}
+          <Image src="../images/RyanThomasPortfolioPicture.png" fluid />
+        </Col>
+        <Col id="middle--right">
+          <Row id="middle--right--top">
+            <h1>Ryan Thomas (she/her)</h1>
+          </Row>
+          <Row id="middle--right--middle">
+            <h2>Software Developer</h2>
+            <h4>About Me</h4>
+            <p>
+            My journey into software development began as a natural extension of my desire to create impactful solutions. With a foundation in teaching, I bring a user-centric approach to my development projects, always striving to make technology accessible and user-friendly.
+Whether it's crafting elegant code, designing intuitive interfaces, or explaining complex concepts in a way that's easy to understand, I thrive on the intersection of education and technology.
+
+            </p>
+          </Row>
+          <Row id="middle--right--bottom">
+          <Button variant="dark">Resume</Button>
+          </Row>
+         
+        </Col>
+
+      </Row>
+      <Row id="bottom">
+        <Col id="bottom--left"></Col>
+        <Col id="bottom--middle">Copyright 2024 Ryan Thomas</Col>
+        <Col id="bottom--right"><FaGithubSquare /><FaLinkedin /></Col>
+
+      </Row>
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+     </div>
   );
 }
 
