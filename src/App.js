@@ -1,32 +1,25 @@
 import RyanImage from './images/RyanThomasPortfolioPicture.png';
 import './App.css';
-import {Row, Col, Nav, Navbar, Container, Button, Image} from 'react-bootstrap'
+import {Row, Col, Button, Image} from 'react-bootstrap'
 import { FaGithubSquare, FaLinkedin} from "react-icons/fa";
+import MenuBar from "./components/MenuBar"
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Row id="top">
-        <Navbar data-bs-theme="light">
-        <Container>
-          <Navbar.Brand href="#home">Ryan Thomas</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Skills</Nav.Link>
-            <Nav.Link href="#features">Projects</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+        <MenuBar>
+        </MenuBar>
 
       </Row>
       <Row id="middle">
         <Col id="middle--left">
-        <Image
-          src={RyanImage}
-          alt="Ryan Thomas smiling"
-          // rounded
-          id="ryan-image"
-        ></Image>
+          <Image
+            src={RyanImage}
+            alt="Ryan Thomas smiling"
+            // rounded
+            id="ryan-image"
+          ></Image>
         </Col>
         <Col id="middle--right">
           <Row id="middle--right--top">

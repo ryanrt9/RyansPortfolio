@@ -1,0 +1,29 @@
+.navbar, .navbar-default {
+    background-color: #eeeeee;
+  }
+
+#ryan-signature {
+  height: 60px;
+}
+
+.me-auto {
+  margin-right: 0 !important;
+}
+
+.nav-link {
+  display: flex;
+  background-color: #010203 !important;
+  color: #eeeeee;
+  margin-left: 150px;
+  width: 180px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: #03615b !important;
+}
