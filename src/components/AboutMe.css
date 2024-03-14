@@ -1,0 +1,22 @@
+#middle--left {
+  /* background-color: lightgreen; */
+  width: 500px;
+}
+
+#ryan-image {
+  height: 75vh;
+}
+
+#middle--right {
+  /* background-color: darkgreen; */
+  width: 500px;
+}
+
+#middle--right--bottom {
+  width: 200px;
+}
+
+#middle {
+  /* background-color: rgb(234, 221, 99); */
+  height: 800px;
+}

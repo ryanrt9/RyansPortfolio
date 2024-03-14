@@ -1,10 +1,7 @@
-import './Template.css';
+import "./Template.css";
 
 const Template = () => {
-    return (
-        <></>
-        );
-    }
-    
-    export default Template;
-    
+  return <></>;
+};
+
+export default Template;

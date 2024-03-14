@@ -3,16 +3,6 @@
   background-color: #eeeeee;
 }
 
-#top {
-  /* background-color: rgb(0, 242, 255); */
-  height: 100px;
-}
-
-#middle {
-  /* background-color: rgb(234, 221, 99); */
-  height: 800px;
-}
-
 #bottom {
   background-color: #c3d2d1;
   height: 100px;
@@ -20,21 +10,5 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-#middle--left {
-  /* background-color: lightgreen; */
-  width: 500px;
-}
 
-#middle--right {
-  /* background-color: darkgreen; */
-  width: 500px;
-}
-
-#ryan-image {
-  height: 75vh;
-}
-
-#middle--right--bottom {
-  width: 200px;
-}
 
