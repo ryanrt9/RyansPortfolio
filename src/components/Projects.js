@@ -9,13 +9,13 @@ const Projects = () => {
   return (
     <>
       <Row>
-        <Carousel>
+        <Carousel variant="dark">
           <Carousel.Item>
             <ProjectItem
               projectImage={CapstoneProject}
               projectTitle={"Meal Generator App"}
               projectDescription={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                "An app to help you figure out your next meal. Code in GitHub."
               }
             ></ProjectItem>
           </Carousel.Item>
@@ -24,7 +24,7 @@ const Projects = () => {
               projectImage={WeatherReport}
               projectTitle={"Weather Report"}
               projectDescription={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                "An app to get the weather in any city. Code in GitHub."
               }
             ></ProjectItem>
           </Carousel.Item>

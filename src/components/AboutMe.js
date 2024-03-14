@@ -1,8 +1,7 @@
 import React from "react";
 import "./AboutMe.css";
-import { Row, Col, Button, Image } from "react-bootstrap";
+import { Row, Col, Image } from "react-bootstrap";
 import RyanImage from "../images/RyanThomasPortfolioPicture.png";
-
 
 const AboutMe = () => {
   return (
@@ -22,7 +21,6 @@ const AboutMe = () => {
           </Row>
           <Row id="middle--right--middle">
             <h2>Software Engineer</h2>
-            <h3>Update Coming Soon</h3>
             <h4>About Me</h4>
             <p>
               My journey into software development began as a natural extension
@@ -35,11 +33,11 @@ const AboutMe = () => {
               education and technology.
             </p>
           </Row>
-          <Row id="middle--right--bottom">
+          {/* <Row id="middle--right--bottom">
             <Button id="resume-button" variant="dark">
               Resume
             </Button>
-          </Row>
+          </Row> */}
         </Col>
       </Row>
     </div>
