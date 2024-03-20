@@ -22,7 +22,7 @@ const AboutMe = () => {
           <Row id="middle--right--middle">
             <h2>Software Engineer</h2>
             <h4>About Me</h4>
-            <p>
+            <p class="paragraph">
               My journey into software development began as a natural extension
               of my desire to create impactful solutions. With a foundation in
               teaching, I bring a user-centric approach to my development
