@@ -17,11 +17,11 @@ const AboutMe = () => {
         </Col>
         <Col id="middle--right">
           <Row id="middle--right--top">
-            <h1>Ryan Thomas (she/her)</h1>
+            <h1>Ryan Thomas</h1>
           </Row>
           <Row id="middle--right--middle">
-            <h2>Software Engineer</h2>
-            <h4>About Me</h4>
+            <h3>Software Engineer</h3>
+            <h5>About Me</h5>
             <p class="paragraph">
               My journey into software development began as a natural extension
               of my desire to create impactful solutions. With a foundation in
