@@ -8,14 +8,14 @@ import WeatherReport from "../images/WeatherReport.png";
 const Projects = () => {
   return (
     <>
-      <Row>
+      <Row id="projects">
         <Carousel variant="dark">
           <Carousel.Item>
             <ProjectItem
               projectImage={CapstoneProject}
               projectTitle={"Meal Generator App"}
               projectDescription={
-                "An app to help you figure out your next meal. Code in GitHub."
+                "Bon-Appetype is an exciting coding project aiming to change how we discover recipes. It's a full-stack web application that brings together both the Frontend and Backend smoothly, creating a user-friendly space for finding personalized recipes based on what ingredients you have. With a mix of Python, JavaScript, CSS, and HTML, the project ensures a seamless experience for users. What's cool is that Bon-Appetype uses RESTful CRUD routes, making it quick and responsive when fetching data from external APIs. Plus, it's built with modern tools like React, Firebase, and Heroku, showing its commitment to staying at the forefront of web development. You can easily save, like, and remove recipes, making your cooking journey more tailored and flexible. Code in GitHub."
               }
             ></ProjectItem>
           </Carousel.Item>
@@ -24,7 +24,7 @@ const Projects = () => {
               projectImage={WeatherReport}
               projectTitle={"Weather Report"}
               projectDescription={
-                "An app to get the weather in any city. Code in GitHub."
+                "Weather Report is a clever coding project that gives you accurate weather forecasts for different cities. With its user-friendly interface made with JavaScript, CSS, and HTML, you can easily check the weather in any location. It uses a weather API to ensure you get real-time updates and reliable information. Just input your city, and you'll instantly receive a detailed weather report. Weather Report makes it simple to stay informed about weather patterns worldwide with its intuitive design and seamless integration. Code in GitHub."
               }
             ></ProjectItem>
           </Carousel.Item>
