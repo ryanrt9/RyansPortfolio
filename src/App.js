@@ -5,6 +5,7 @@ import MenuBar from "./components/MenuBar";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Skills from "./components/Skills";
 
 import "./App.css";
 import { Row, Col } from "react-bootstrap";
@@ -15,6 +16,7 @@ const App = () => {
       <MenuBar></MenuBar>
       <AboutMe></AboutMe>
       <Projects></Projects>
+      <Skills></Skills>
       <Contact></Contact>
       <Row id="bottom">
         <Col id="bottom--left"></Col>

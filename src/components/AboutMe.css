@@ -1,6 +1,7 @@
 #middle--left {
   /* background-color: lightgreen; */
   width: 500px;
+  /* padding-left: 100px; */
 }
 
 #ryan-image {
@@ -19,4 +20,8 @@
 #middle {
   /* background-color: rgb(234, 221, 99); */
   height: 800px;
+}
+
+.paragraph {
+  padding-right: 90px;
 }
