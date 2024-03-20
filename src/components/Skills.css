@@ -1,6 +1,7 @@
 .skills {
     height: 700px;
-    background-color: #03615b;
+    background-color: #c3d2d1;
+    color: #03615b;
     padding-top: 100px;
 
 }
@@ -16,8 +17,7 @@
 
 .h1skills {
     height: fit-content;
-    color: black;
-    text-decoration: #03615b;
+    color: #03615b;
     font-size: 70px;
     
 }

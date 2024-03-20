@@ -9,7 +9,7 @@ const ProjectItem = ({ projectImage, projectTitle, projectDescription }) => {
         <Image className="project-img" src={projectImage} roundedCircle />
       </Col>
       <Col>
-        <h1>{projectTitle}</h1>
+        <h1 class="projectTitle">{projectTitle}</h1>
         <p>{projectDescription}</p>
       </Col>
     </Row>
