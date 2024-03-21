@@ -26,3 +26,13 @@
 .paragraph {
   padding-right: 90px;
 }
+
+#aboutMeIcons {
+  /* width: 600px; */
+  /* padding-left: 10px; */
+  /* padding-top: 10rem 0; */
+  /* padding-right: 10px; */
+  /* background-color: #03615b; */
+  font-size: 25px;
+  color: #03615b;
+}

@@ -13,6 +13,7 @@ const MenuBar = () => {
               alt="Ryan Thomas Signature "
               // rounded
               id="ryan-signature"
+              href="#home"
             ></Image>
           </Navbar.Brand>
           <Nav className="me-auto">
