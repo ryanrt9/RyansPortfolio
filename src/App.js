@@ -20,7 +20,7 @@ const App = () => {
       <Contact></Contact>
       <Row id="bottom">
         <Col id="bottom--left"></Col>
-        <Col id="bottom--middle">© 2024 Created by Ryan Thomas</Col>
+        <Col id="bottom--middle">© 2024 Ryan Thomas. All Rights Reserved.</Col>
         <Col id="bottom--right"></Col>
       </Row>
       {/* <img src={logo} className="App-logo" alt="logo" /> */}
